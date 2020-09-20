@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    android:gravity="center"
+    tools:context=".view.StartActivity">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@style/Button.Action"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/bg_bottom"
+            android:text="Start"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btn_about"
+            style="@style/Button.Action"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/bg_bottom"
+            android:text="about"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="@style/Button.Action"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/bg_bottom"
+            android:text="exit"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+</LinearLayout>

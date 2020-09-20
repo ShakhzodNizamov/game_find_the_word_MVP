@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CorrectButton">
+        <item name="android:clickable">false</item>
+        <item name="android:background">#15CF17</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">50dp</item>
+         <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Button.Action">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Center">
+        <item name="android:textColor">#DFDB97</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Scope" parent="Text.Center">
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/bg_scope</item>
+    </style>
+
+    <style name="Button.Answer">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/bg_answer</item>
+    </style>
+
+    <style name="Button.Variant">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/bg_variant</item>
+    </style>
+
+</resources>
